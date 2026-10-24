@@ -1,0 +1,21 @@
+<!doctype html><html lang="hi-Latn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KiranaVoice</title><link rel="stylesheet" href="/static/app.css"></head>
+<body><div id="app">
+<header><div class="brand">🛒 KiranaVoice</div><div id="mode" class="pill"></div></header>
+<main>
+ <section class="phone" id="phone">
+  <div class="incoming" id="incoming"><div class="ring">📞</div><div class="caller">Incoming call</div>
+   <div class="num">+91 98765 43210</div><div class="sub">Sharma Kirana · shop line</div>
+   <div class="btns"><button id="answer" class="primary">Answer (AI agent)</button></div></div>
+  <div class="incall hidden" id="incall"><div class="calltop">🟢 AI agent on call · <span id="timer">00:00</span></div>
+   <div id="transcript" class="transcript" aria-live="polite"></div>
+   <form id="sayform"><input id="say" placeholder="Customer bolega… (mock STT: type Hinglish)" autocomplete="off"><button type="submit" class="secondary">Say</button></form>
+   <div class="row"><button id="script" class="secondary">▶ Play demo script</button><button id="mic" class="secondary hidden">🎙 Mic (live)</button><button id="hangup" class="danger">End call</button></div></div>
+ </section>
+ <section class="side">
+  <div class="card"><h2>Order card</h2><div id="state" class="pill small">waiting</div><ul id="items" class="items"><li class="muted">No items yet</li></ul></div>
+  <div class="card wa"><h2>Owner's WhatsApp</h2><div id="wa" class="wachat"><div class="muted">Order summary will land here</div></div></div>
+ </section>
+</main>
+<footer>Synthetic demo data · STT: Gnani Prisma v2.5 · TTS: Gnani Timbre v2.5 · <span id="footmode"></span></footer>
+</div><script src="/static/app.js"></script></body></html>

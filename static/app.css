@@ -1,0 +1,35 @@
+:root{--bg:#0B141A;--panel:#111B21;--surf:#202C33;--ink:#E9EDEF;--muted:#8696A0;--acc:#25D366;--acc2:#00A884;--wa:#0B141A;--bub:#005C4B;--line:#2A3942;--danger:#F47C88;--link:#53BDEB}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;border-bottom:1px solid var(--line);background:var(--surf)}
+.brand{font-weight:800;font-size:22px}.pill{background:var(--surf);border:1px solid var(--line);color:var(--ink);border-radius:99px;padding:4px 12px;font-size:13px}
+.pill.small{display:inline-block;margin-bottom:8px}
+main{display:grid;grid-template-columns:minmax(360px,460px) 1fr;gap:22px;padding:22px;max-width:1200px;margin:auto}
+.phone{background:var(--panel);border-radius:28px;padding:20px;min-height:620px;border:1px solid var(--line);display:flex;flex-direction:column}
+.incoming{text-align:center;margin:auto}.ring{font-size:64px;animation:r 1s infinite}@keyframes r{50%{transform:rotate(14deg)}}
+.caller{font-size:20px;color:var(--muted)}.num{font-size:30px;font-weight:700}.sub{color:var(--muted);margin-bottom:24px}
+button{font:inherit;border-radius:12px;padding:10px 16px;border:1px solid var(--line);cursor:pointer}
+.primary{background:var(--acc2);color:#0B141A;font-weight:700;border:0;font-size:18px;padding:14px 26px}
+.secondary{background:var(--surf);color:var(--ink)}.secondary:hover{border-color:var(--acc2)}.danger{background:transparent;color:var(--danger);border-color:#6b2c34}.secondary.on{background:var(--bub);border-color:var(--acc)}
+.hidden{display:none!important}.incall{display:flex;flex-direction:column;gap:10px;flex:1}
+.calltop{color:var(--muted)}.transcript{flex:1;overflow:auto;display:flex;flex-direction:column;gap:8px;max-height:460px}
+.msg{padding:9px 13px;border-radius:14px;max-width:88%}.msg b{display:block;font-size:12px;color:var(--muted)}
+.customer{background:var(--bub);align-self:flex-end;border-top-right-radius:4px}.agent{background:var(--surf);align-self:flex-start;border-top-left-radius:4px}
+form{display:flex;gap:8px}input{flex:1;font:inherit;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--wa);color:var(--ink)}
+.row{display:flex;gap:8px;flex-wrap:wrap}.side{display:flex;flex-direction:column;gap:22px}
+.card{background:var(--panel);border-radius:18px;padding:18px;border:1px solid var(--line)}h2{margin:0 0 8px;font-size:18px}
+.items{list-style:none;padding:0;margin:0}.items li{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:18px}
+.items li.flash{animation:f 1.2s}@keyframes f{from{background:#00A88455}}.muted{color:var(--muted)}
+.wachat{background:var(--wa) radial-gradient(#ffffff08 1px,transparent 1px) 0 0/14px 14px;border-radius:12px;padding:14px;min-height:180px}.bubble{background:var(--bub);padding:10px 12px;border-radius:10px;white-space:pre-wrap;max-width:95%}
+.wachat a{color:var(--link)}footer{text-align:center;color:var(--muted);font-size:13px;padding:10px}
+/* vertical 1080x1920 */
+body.vertical main{grid-template-columns:1fr;max-width:1080px;gap:18px}
+body.vertical #app{width:1080px;min-height:1920px;margin:auto}
+body.vertical{font-size:30px}body.vertical .brand{font-size:44px}body.vertical .pill{font-size:24px}
+body.vertical .phone{min-height:980px}body.vertical .transcript{max-height:760px;font-size:38px}
+body.vertical .msg b{font-size:22px}body.vertical .num{font-size:56px}body.vertical .ring{font-size:120px}
+body.vertical .items li{font-size:36px}body.vertical h2{font-size:32px}body.vertical .bubble{font-size:30px}
+body.vertical button,body.vertical input{font-size:28px}body.vertical .primary{font-size:36px}
+body.vertical footer{font-size:22px}body.vertical .side{flex-direction:row}body.vertical .card{flex:1}
+body.wide{zoom:1.42}body.wide footer{display:none}
+
+.msg b{color:#AEBAC1}.customer b{color:#D1D7DB}.brand{color:var(--acc)}:focus-visible{outline:2px solid var(--acc);outline-offset:2px}

@@ -1,0 +1,7 @@
+fastapi==0.159.1
+httpx==0.28.1
+pipecat-ai==1.13.0
+playwright==1.64.0
+pytest==9.1.1
+uvicorn==0.54.0
+websockets==17.3

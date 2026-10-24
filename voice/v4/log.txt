@@ -1,0 +1,11 @@
+n1a [en] take0 0.820 4.87s | They run on winners and disorders every day just because their hands are busy.
+n1a [en] take1 0.991 4.68s | Kirana owners misorders every day just because their hands are busy
+n1b [en] take0 0.982 4.17s | Iran owners miss orders every day just because their hands are busy
+n2a [en] take0 1.000 2.51s | Kirana voice picks up
+n2b [en] take0 1.000 1.62s | Kirana voice picks up.
+n3a [en] take0 0.914 6.40s | And the owner gets a clean order, some around, what's that?  Hands still busy. Order, not lost.
+n3a [en] take1 0.915 5.53s | And the owner gets a clean order summary on what's that, and still busy, ordered and not lost.
+n3a [en] take2 0.887 5.01s | And the only way to get a clean order summary on what's that, hands still busy, order not lost.
+n3a [en] take3 1.000 5.39s | And the owner gets a clean order summary on WhatsApp.  Hands still busy. Order. Not lost.
+n3b [en] take0 1.000 4.92s | And the owner gets a clean order summary on whatsapp.  Hands still busy.  The order is not lost.
+n5a [en] take0 0.982 4.45s | A real Karana owner said he'd pay two to three hundred rupees a month.
