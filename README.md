@@ -54,4 +54,6 @@ Don't test in `--live` mode with long calls. Use the demo script (5 short lines)
 `kiranavoice/parser.py` (Hinglish NLU), `flow.py` (state machine), `pipeline.py` (Pipecat), `adapters/gnani.py`, `adapters/mock.py`, `whatsapp.py`, `server.py` (FastAPI + WS), `static/` (self-hosted UI, no CDNs), `tests/`.
 
 ## Contributions
-Karthik: _TBD_ · Yash: _TBD_ (to fill in for the writeup)
+U. Kaustubha Karthik: built the working application, the demo web app, the Pipecat voice pipeline with Gnani Prisma STT and Timbre TTS, the Hinglish order parser, and the WhatsApp order-summary sender.
+Yash: produced and edited the 60-second demo video.
+Shared: the submission writeup.
