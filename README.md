@@ -1,4 +1,4 @@
-# KiranaVoice 🛒📞
+# KiranaVoice
 A voice agent that picks up a kirana shop's phone when the owner's hands are full. It takes the order in Hinglish, reads it back, handles corrections, and sends the owner a clean order summary on WhatsApp. Built for the Gnani AI Great Indian AI Internship Challenge. **All data is synthetic.**
 
 ## Architecture
